@@ -1,5 +1,9 @@
 body{
 	max-width: 960px;
 	margin: 0 auto;
-	font: 100%/1.2 "Garamond", arial, sans-serif;
+	font: 100%/1.4 "Century Gothic", arial, sans-serif;
+}
+
+li {
+	list-style-type: none;
 }
