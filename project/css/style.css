@@ -8,7 +8,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	border: 0;
 	outline: 0;
@@ -19,7 +19,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body{
 	line-height: 1.4;
 	max-width: 960px;
-	margin: 0 auto;
 	font: 100%/1.2 "Century Gothic", arial, sans-serif;
 	background-color: #C2F7CB;
 }
@@ -28,6 +27,7 @@ a {
 	color: black;
 	text-decoration: none;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -45,6 +45,7 @@ nav ul li {
 	float: left;
 	padding: 15px 1em 8px;
 	border: 1px solid black;
+	background-color: white;
 }
 
 #greeting {
@@ -61,10 +62,37 @@ nav ul li {
 	max-width: 90%;
 	max-height: 100%;
 	margin-top: 20px;
+	margin-bottom: 15px;
 }
 
 img.center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#img_tag p{
+	background-color: white;
+	border: 1px solid #333;
+	/*max-width: 60%;
+	padding: 0 3px;*/
+}
+
+.big_links ul {
+	max-height: 100%;
+	max-width: 90%;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.big_links li {
+	margin: 0 0.96%;
+	font-size: 2em;
+	float: left;
+	padding: 15px 1em 8px;
+	border: 1px solid black;
+	background-color: white;
+	-moz-box-shadow: -2px -2px 0 #333;
+	-webkit-box-shadow: -2px -2px 0 #333;
+	box-shadow: -2px -2px 0 #333;
 }
