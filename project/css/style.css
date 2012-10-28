@@ -20,10 +20,26 @@ body{
 	line-height: 1.4;
 	max-width: 960px;
 	margin: 0 auto;
-	font: 100%/1.4 "Century Gothic", arial, sans-serif;
+	font: 100%/1.2 "Century Gothic", arial, sans-serif;
 	background-color: #C2F7CB;
 }
 
+a {
+	text-decoration: none;
+}
 ol, ul {
 	list-style: none;
+}
+
+header, nav {
+	float: left;
+}
+
+nav ul {
+	margin: 80px auto 25px;
+}
+nav ul li{
+	float: left;
+	padding: 15px 1em 10px;
+	border: 1px solid black;
 }
