@@ -36,9 +36,6 @@ header, nav {
 	float: left;
 }
 
-#greeting p{
-	text-align: center;
-}
 nav {
 	margin-bottom: 40px;
 }
@@ -49,4 +46,13 @@ nav ul li{
 	float: left;
 	padding: 15px 1em 8px;
 	border: 1px solid black;
+}
+
+#greeting {
+	margin-left: 1em;
+}
+
+#signature {
+	text-align: right;
+	margin-right: 2em;
 }
