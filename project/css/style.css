@@ -8,7 +8,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
 	border: 0;
 	outline: 0;
@@ -22,7 +22,7 @@ body{
 	font: 100%/1.2 "Century Gothic", arial, sans-serif;
 	background-color: #C2F7CB;
 }
-
+/*
 a {
 	color: black;
 	text-decoration: none;
@@ -75,7 +75,7 @@ img.center {
 	background-color: white;
 	border: 1px solid #333;
 	/*max-width: 60%;
-	padding: 0 3px;*/
+	padding: 0 3px;
 }
 
 .big_links ul {
@@ -95,4 +95,4 @@ img.center {
 	-moz-box-shadow: -2px -2px 0 #333;
 	-webkit-box-shadow: -2px -2px 0 #333;
 	box-shadow: -2px -2px 0 #333;
-}
+}*/
