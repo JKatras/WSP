@@ -37,12 +37,11 @@ header, nav {
 }
 
 nav {
-	margin-bottom: 40px;
+	margin-bottom: 45px;
+	margin-top: 65px;
 }
-nav ul {
-	margin: 80px auto;
-}
-nav ul li{
+
+nav ul li {
 	float: left;
 	padding: 15px 1em 8px;
 	border: 1px solid black;
@@ -55,4 +54,17 @@ nav ul li{
 #signature {
 	text-align: right;
 	margin-right: 2em;
+}
+
+#img_container img{
+	border: 2px solid white;
+	max-width: 90%;
+	max-height: 100%;
+	margin-top: 20px;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
