@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Site Redesign</title>
+		<title>Set an Appointment</title>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -11,6 +11,49 @@
 			<img alt="Kirkman Road Veterinary Clinic" src="images/KRVC_logo.png">
 			</a>
 		</header>
+		<form method="get" action="fieldset.html" class="data">
+			<fieldset>
+				<legend>Please complete all areas:</legend>
+			<div>
+				<label for="firstname" class="fixedwidth">First Name:</label>
+				<input type="text" name="firstname" id="firstname"/>
+			</div>
+			<br/>
+			<div>
+				<label for="lastname" class="fixedwidth">Last Name:</label>
+				<input type="text" name="lastname" id="lastname"/>
+			</div>
+			<div>
+				<label for="address" class="fixedwidth">Address:</label>
+				<input type="text" name="yourname" id="yourname"/>
+			</div>
+			<div>
+				<label for="yourname" class="fixedwidth">Full Name:</label>
+				<input type="text" name="yourname" id="yourname"/>
+			</div>
+			<div>
+				<label for="email" class="fixedwidth">Email:</label>
+				<input type="text" name="email" id="email"/>
+			</div>
+			<br/>
+			<div>
+				<label for="update">Send Me Updates:</label>
+				<select name="update" id="update">
+				<option>Daily</option>
+				<option selected="selected">Weekly</option>
+				<option>Monthly</option>
+				<option>Never</option>
+				</select>
+			</div>
+			<br/>
+			<div>
+				<input type="checkbox" name="privacy" id="privacy"/>
+				<label for="privacy">I have read the Privacy Policy</label>
+			</div>
+			<br/>
+			<div><input class="button" type="submit" value="Subscribe"/></div>
+			</fieldset>
+		</form>
 		<p></p>
 	</body>
 </html>
