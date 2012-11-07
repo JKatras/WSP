@@ -16,11 +16,15 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
-body{
+body {
 	line-height: 1.4;
 	max-width: 960px;
 	font: 100%/1.2 "Century Gothic", arial, sans-serif;
 	background-color: #C2F7CB;
+}
+
+#logo {
+	box-shadow: 0px 0px 3px 3px white;
 }
 
 a {
@@ -50,6 +54,7 @@ nav ul li {
 
 #greeting {
 	margin-left: 1em;
+	font-style: italic;
 }
 
 #signature {
@@ -71,21 +76,21 @@ img.center {
 	margin-right: auto;
 }
 
-#img_tag p{
+#img_caption p{
 	background-color: white;
 	border: 1px solid #333;
 	max-width: 60%;
 	padding: 0 3px;
 }
 
-.big_links ul {
+.main_links ul {
 	max-height: 100%;
 	max-width: 90%;	
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.big_links li {
+.main_links li {
 	margin: 0 0.96%;
 	font-size: 2em;
 	float: left;
