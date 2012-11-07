@@ -15,7 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-size: 100%;
 	vertical-align: baseline;
 }
-/*
+
 body{
 	line-height: 1.4;
 	max-width: 960px;
@@ -74,7 +74,7 @@ img.center {
 #img_tag p{
 	background-color: white;
 	border: 1px solid #333;
-	/*max-width: 60%;
+	max-width: 60%;
 	padding: 0 3px;
 }
 
@@ -95,4 +95,4 @@ img.center {
 	-moz-box-shadow: -2px -2px 0 #333;
 	-webkit-box-shadow: -2px -2px 0 #333;
 	box-shadow: -2px -2px 0 #333;
-}*/
+}
