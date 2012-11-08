@@ -15,12 +15,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-size: 100%;
 	vertical-align: baseline;
 }
-/*
+
 body{
 	line-height: 1.4;
-	max-width: 960px;
+	max-width: 1000px;
 	font: 100%/1.2 "Century Gothic", arial, sans-serif;
 	background-color: #C2F7CB;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a {
@@ -36,14 +38,33 @@ header, nav {
 	float: left;
 }
 
+/*header {
+	float: left;
+	}*/
+
 nav {
-	margin-bottom: 45px;
-	margin-top: 65px;
+	border: 1px solid black;
+	float: right;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 nav ul li {
 	float: left;
 	padding: 15px 1em 8px;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 	background-color: white;
-}*/
+}
+
+footer {
+	margin-top: 15px;
+	max-width: 100%;
+	background: white;
+	clear: both;
+	padding-left: 7%;
+}
+
+footer p {
+	float: left;
+	margin-right 3%;
+}
