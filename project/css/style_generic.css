@@ -30,6 +30,24 @@ a {
 	text-decoration: none;
 }
 
+nav a:hover{
+	background: -moz-linear-gradient(top, #b4ddb4 0%, #52b152 49%, #009911 99%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top, #b4ddb4 0%,#52b152 49%,#009911 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b4ddb4 0%,#52b152 49%,#009911 99%); /* Opera 11.10+ */ 
+	padding: 15px 1em 8px;
+}
+
+/*a:visited{
+	color: ;
+	border-color: #DDD;
+}
+
+a:active{
+	color: #C3102E;
+	border-color: #C3102E;
+}*/
+
+
 ol, ul {
 	list-style: none;
 }
