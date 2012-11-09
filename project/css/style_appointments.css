@@ -30,19 +30,8 @@ a {
 	text-decoration: none;
 }
 
-nav a:hover{
-	background: -moz-linear-gradient(top, #b4ddb4 0%, #52b152 49%, #009911 99%); /* FF3.6+ */
-	background: -webkit-linear-gradient(top, #b4ddb4 0%,#52b152 49%,#009911 99%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #b4ddb4 0%,#52b152 49%,#009911 99%); /* Opera 11.10+ */ 
-	padding: 15px 1em 8px;
-}
-
 ol, ul {
 	list-style: none;
-}
-
-header, nav {
-	float: left;
 }
 
 nav {
@@ -54,9 +43,24 @@ nav {
 
 nav ul li {
 	float: left;
+}
+
+nav ul li a {
+	display: inline;
+	float: left;
 	padding: 15px 1em 8px;
 	background-color: white;
 }
+
+nav a:hover{
+	background-color: #C2F7CB;
+
+
+
+header, nav {
+	float: left;
+}
+
 
 footer {
 	margin-top: 15px;

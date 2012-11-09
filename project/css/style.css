@@ -55,9 +55,17 @@ nav {
 
 nav ul li {
 	float: left;
+}
+
+nav ul li a {
+	display: inline;
+	float: left;
 	padding: 15px 1em 8px;
-/*	border: 1px solid black;*/
 	background-color: white;
+}
+
+nav a:hover{
+	background-color: #C2F7CB;
 }
 
 #greeting {
