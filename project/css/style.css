@@ -16,14 +16,15 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
-body {	
-	margin-left: auto;
-	margin-right: auto;
+body{
 	line-height: 1.4;
 	max-width: 1000px;
 	font: 100%/1.2 "Century Gothic", arial, sans-serif;
-	background-color: #eaf4b5;
+	background-color: #CBD4A8;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 
 #logo {
 	display: block;
