@@ -73,6 +73,14 @@ footer p {
 	margin-right 3%;
 }
 
+h1 {
+	clear: both;
+}
+
+form {
+	clear: both;
+}
+
 /*---------Media Queries-------------------*/
 
 /* Smartphones (portrait) ----------- */
