@@ -100,6 +100,8 @@ aside {
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
+form {clear: both;}
+#logo {display: none;}
 }
 
 /* iPads (portrait and landscape) ----------- */

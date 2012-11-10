@@ -138,10 +138,14 @@ footer p {
 
 /*---------Media Queries-------------------*/
 
-/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (max-width : 320px) {
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 /* Styles */
+.main_links {max-width: 100%;}
+.main_links li {clear: both; margin: 1.5% 0 0; max-width: 100%};
+#logo {display: none;}
 }
 
 /* iPads (portrait and landscape) ----------- */

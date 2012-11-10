@@ -87,11 +87,15 @@ footer p {
 
 /*---------Media Queries-------------------*/
 
-/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (max-width : 320px) {
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 /* Styles */
+header #logo {display: none;}
+nav {display: none};
 }
+
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
