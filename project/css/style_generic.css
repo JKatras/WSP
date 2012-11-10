@@ -50,10 +50,6 @@ nav ul li a {
 
 nav a:hover{
 	background-color: #C2F7CB;
-	/*background: -moz-linear-gradient(top, #b4ddb4 0%, #52b152 49%, #009911 99%); /* FF3.6+ *!/
-	background: -webkit-linear-gradient(top, #b4ddb4 0%,#52b152 49%,#009911 99%); /* Chrome10+,Safari5.1+ *!/
-	background: -o-linear-gradient(top, #b4ddb4 0%,#52b152 49%,#009911 99%); /* Opera 11.10+ *!/ 
-	padding: 15px 1em 8px;*/
 }
 
 /*a:visited{
@@ -87,4 +83,25 @@ footer {
 footer p {
 	float: left;
 	margin-right 3%;
+}
+
+/*---------Media Queries-------------------*/
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
 }
