@@ -34,6 +34,10 @@ ol, ul {
 	list-style: none;
 }
 
+header {
+	float: left;
+}
+
 nav {
 	border: 1px solid black;
 	float: right;
@@ -54,13 +58,7 @@ nav ul li a {
 
 nav a:hover{
 	background-color: #C2F7CB;
-
-
-
-header, nav {
-	float: left;
 }
-
 
 footer {
 	margin-top: 15px;
@@ -69,7 +67,6 @@ footer {
 	clear: both;
 	padding-left: 7%;
 }
-
 footer p {
 	float: left;
 	margin-right 3%;
