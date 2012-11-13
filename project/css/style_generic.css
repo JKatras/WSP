@@ -73,16 +73,31 @@ header {
 
 
 footer {
-	margin-top: 15px;
 	max-width: 100%;
 	background: white;
 	clear: both;
-	padding-left: 7%;
+	overflow: hidden;
+}
+
+footer ul li{
+	float: left;
+	display: inline;
+}
+
+footer a {
+	text-decoration: underline;
 }
 
 footer p {
-	float: left;
-	margin-right: 3%;
+	padding-top: 30px;
+	padding-right: 5%;
+	margin-left: 5%;
+}
+
+.icon {
+	float: right;
+	margin-bottom: 10px;
+	padding-right: 1.9%;
 }
 
 /*---------Media Queries-------------------*/
