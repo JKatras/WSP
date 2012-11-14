@@ -26,15 +26,38 @@ body {
 }
 
 h1 {
-	font-size: 140%;
+	font-size: 140%; /*22px*/
+}
+
+h2 {
+	font-size: 125%; /*20px*/
+}
+
+h3 {
+	font-size: 120%; /*19px*/
+}
+
+h5 {
+	font-size: 80%; /*13px*/
 }
 
 #portal {
 	clear: left;
+	background-color: white;
+	overflow: hidden;
 }
 
 #benefits {
 	float: left;
+}
+
+#form_login {
+	float: right;
+}
+
+#forgot_pass {
+	font-size: 80%;
+	text-decoration: underline;
 }
 a {
 	color: black;
