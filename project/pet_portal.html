@@ -21,8 +21,8 @@
 				<li><a href="generic.html">Generic</a></li>
 			</ul>	
 		</nav>
+		<h1>Welcome to Pet Portal</h1>
 		<section id="portal">
-			<h1>Welcome to Pet Portals</h1>
 			<div id="benefits">
 			<h3>It's never been easier to manage your pet's health online.</h3>
 				<ul>
@@ -40,9 +40,19 @@
 			<div id="form_login">
 				<h5>Already Activated?</h5>
 				<form method="get" action="#">
+					<fieldset>
 					<legend><h2>Log in to Your Pet Portal</h2></legend>
+					<div>
+						<label for="email" class="fixedwidth">Email Address</label><br/>
+						<input type="email" name="email" id="email"/>
+					</div>
+					<div>
+						<label for="password" class="fixedwidth">Password</label><br/>
+						<input type="password" name="password" id="password"/>
+					</div>					
 					<div id="btn_login"></div>
-					<a id="forgot_pass" href="#">Forgot your password?</a>
+						<a id="forgot_pass" href="#">Forgot your password?</a>
+					</fieldset>
 				</form>
 			</div>
 		</section>
