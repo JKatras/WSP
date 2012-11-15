@@ -127,11 +127,14 @@ footer {
 	background: white;
 	clear: both;
 	overflow: hidden;
+	
+	
 }
 
 footer ul li{
 	float: left;
 	display: inline;
+	
 }
 
 footer a {
@@ -142,6 +145,7 @@ footer p {
 	padding-top: 30px;
 	padding-right: 5%;
 	margin-left: 5%;
+	font-size: 80%;
 }
 
 .icon {

@@ -34,6 +34,25 @@ ol, ul {
 	list-style: none;
 }
 
+h1 {
+	font-size: 140%; /*22px*/
+	clear: both;
+/*	margin-left: auto;
+	margin-right: auto;*/
+}
+
+h2 {
+	font-size: 125%; /*20px*/
+}
+
+h3 {
+	font-size: 120%; /*19px*/
+}
+
+h5 {
+	font-size: 80%; /*13px*/
+}
+
 header {
 	float: left;
 }
@@ -61,6 +80,8 @@ nav a:hover{
 }
 
 footer {
+	font-size: 80%;
+	font-weight: bold;
 	max-width: 100%;
 	background: white;
 	clear: both;
@@ -77,29 +98,38 @@ footer a {
 	text-decoration: underline;
 }
 
+.icon {
+	padding-right: 1%;
+}
+
 h1 {
 	clear: both;
+	margin-left: 1.9%;
+	margin-bottom: 1.2%;
 }
 
 form {
 	clear: both;
+	border: 1px solid black;
+	background-color: #C2F7CB;
+	overflow: hidden;
+	width: 70%;
 }
 
 #demographics, #pet_info {
 	float: left;
 	margin-right: 5%;
 	padding: 15px 1em 8px;
-	border: 1px solid black;
-	background-color: #C2F7CB;
 }
 
-.icon {
-	padding-right: 1%;
+#pet_info {
+	vertical-align: middle;
 }
 aside {
 	float: right;
 	margin: 0 5% 7% auto;
 }
+
 /*---------Media Queries-------------------*/
 
 /* Smartphones (portrait) ----------- */
