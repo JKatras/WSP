@@ -61,16 +61,20 @@ nav a:hover{
 }
 
 footer {
-	/*margin-top: 100px;*/
 	max-width: 100%;
 	background: white;
 	clear: both;
 	padding-left: 7%;
+	vertical-align: bottom;
 }
 
 footer p {
-	float: left;
+	display: inline;
 	margin-right: 3%;
+}
+
+footer a {
+	text-decoration: underline;
 }
 
 h1 {
@@ -89,7 +93,9 @@ form {
 	background-color: #C2F7CB;
 }
 
-
+.icon {
+	padding-right: 1%;
+}
 aside {
 	float: right;
 	margin: 0 5% 7% auto;
