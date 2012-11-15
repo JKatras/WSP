@@ -111,12 +111,11 @@ nav ul,
 footer ul {
 	list-style: none;
 }
-/* Why does this do nothing? */
+
 #benefits ul {
 	margin-left: 1em;
 	list-style: circle;
 }
-/*------------------------------*/
 
 header {
 	float: left;
@@ -155,8 +154,8 @@ footer p {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+and (min-width: 320px) 
+and (max-width: 480px) {
 /* Styles */
 header #logo {display: none;}
 nav {display: none;}
