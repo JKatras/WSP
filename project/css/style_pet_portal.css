@@ -61,8 +61,7 @@ a:active{
 h1 {
 	font-size: 140%; /*22px*/
 	clear: both;
-/*	margin-left: auto;
-	margin-right: auto;*/
+	margin: 0 0 10px 1.9%;
 }
 
 h2 {
@@ -127,18 +126,21 @@ footer {
 	background: white;
 	clear: both;
 	overflow: hidden;
-	
+	padding: 0 3%;
+}
+
+footer ul {
+	display: inline;
 	
 }
 
 footer ul li{
 	float: left;
-	display: inline;
-	
 }
 
 footer a {
 	text-decoration: underline;
+	display: inline;
 }
 
 footer p {
@@ -151,7 +153,8 @@ footer p {
 .icon {
 	float: right;
 	margin-bottom: 10px;
-	padding-right: 1.9%;
+	padding-left: 1.3%;
+	margin-top: 15px;
 }
 
 /*---------Media Queries-------------------*/
