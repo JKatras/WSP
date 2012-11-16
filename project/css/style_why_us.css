@@ -119,20 +119,31 @@ footer p {
 }
 
 #menu {
-	margin: 0 auto;
-	max-width: 100%;
+	margin: 15px auto;
+	max-width: 90%;
 	background-color: white;
 	overflow: hidden;
 	border: 1px solid black;
+	padding: 15px 0 10px 8%;
+}
+
+#menu img {
+	border: 1px solid #black;
 }
 
 .svc_highlight {
 	float: left;
-	max-width: 21.5%;
+	width: 33%;
 }
 
-img.svc_highlight {
-	border: 1px solid #333;
+.svc_highlight ul {
+	width: 70%;
+	font-size: 14px;
+}
+
+.menu_image {
+	border: 3px solid black;
+	max-width: 100%;
 }
 /*---------Media Queries-------------------*/
 
