@@ -127,10 +127,6 @@ footer p {
 	padding: 15px 0 10px 8%;
 }
 
-#menu img {
-	border: 1px solid #black;
-}
-
 .svc_highlight {
 	float: left;
 	width: 33%;
@@ -144,6 +140,16 @@ footer p {
 .menu_image {
 	border: 3px solid black;
 	max-width: 100%;
+}
+
+#summary_text {
+	margin: 0 auto 15px;
+	text-align: center;
+}
+
+#summary_text a{
+	font-weight: bold;
+	text-decoration: underline;
 }
 /*---------Media Queries-------------------*/
 
