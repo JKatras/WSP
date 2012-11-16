@@ -133,6 +133,7 @@ footer p {
 	border: 3px dashed #333;
 	display: block;
 }
+
 #main_content p {
 	text-align: center;
 	max-width: 90%;
@@ -142,24 +143,24 @@ footer p {
 /*---------Media Queries-------------------*/
 
 /* Smartphones (portrait and landscape) ----------- */
-/*@media only screen 
+@media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles *!/
+/* Styles */
 header #logo {display: none;}
 nav {display: none;}
 }
 
 
-/* iPads (portrait and landscape) ----------- *!/
+/* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-/* Styles *!/
+/* Styles */
 }
 
-/* Desktops and laptops ----------- *!/
+/* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
-/* Styles *!/
-}*/
+/* Styles */
+}
