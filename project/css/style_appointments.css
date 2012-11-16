@@ -87,7 +87,6 @@ footer {
 	clear: both;
 	padding-left: 3%;
 	padding-right: 3%;
-	/*vertical-align: bottom;*/
 	overflow: hidden;
 }
 
@@ -118,6 +117,7 @@ form {
 	background-color: #C2F7CB;
 	overflow: hidden;
 	max-width: 100%;
+	margin-bottom: 15px;
 }
 
 legend {
@@ -143,17 +143,29 @@ legend {
 	padding: 15px 1em;
 }
 
+#pet_info {
+	padding-top: 7.25%;
+}
+
 #pet_info label {
 	padding: 0 1em 1em;	
 }
-	
+
+#pet_info input {
+	margin-left: 1.5em;
+}	
 aside {
 	float: right;
 	margin: 0 3% 3% auto;
+	border: 3px solid white;
 }
 
 #appt_time {
 	margin: 1em 0;
+}
+
+#appt_time p {
+	margin-bottom: 1em;
 }
 /*---------Media Queries-------------------*/
 
