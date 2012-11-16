@@ -16,7 +16,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
-body{
+body {
 	line-height: 1.4;
 	max-width: 1000px;
 	font: 100%/1.2 "Century Gothic", arial, sans-serif;
@@ -24,38 +24,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 }
-
-a {
-	color: black;
-	text-decoration: none;
-}
-
-ol, ul {
-	list-style: none;
-}
-
-h1 {
-	font-size: 140%; /*22px*/
-	clear: both;
-/*	margin-left: auto;
-	margin-right: auto;*/
-}
-
-h2 {
-	font-size: 125%; /*20px*/
-}
-
-h3 {
-	font-size: 120%; /*19px*/
-}
-
-h5 {
-	font-size: 80%; /*13px*/
-}
-
-header {
-	float: left;
-}
+/*---------------- Global Nav --------------------*/
 
 nav {
 	border: 1px solid black;
@@ -79,35 +48,83 @@ nav a:hover{
 	background-color: #C2F7CB;
 }
 
+/*a:visited{
+	color: ;
+	border-color: #DDD;
+}
+
+a:active{
+	color: #C3102E;
+	border-color: #C3102E;
+}*/
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul,
+footer ul {
+	list-style: none;
+}
+
+h1 {
+	font-size: 140%; /*22px*/
+	clear: both;
+	margin: 0 0 10px 1.9%;
+}
+
+h2 {
+	font-size: 125%; /*20px*/
+}
+
+h3 {
+	font-size: 120%; /*19px*/
+}
+
+h5 {
+	font-size: 80%; /*13px*/
+}
+
+header {
+	float: left;
+}
+
+
 footer {
-	font-size: 80%;
-	font-weight: bold;
 	max-width: 100%;
 	background: white;
 	clear: both;
-	padding-left: 3%;
-	padding-right: 3%;
 	overflow: hidden;
+	padding: 0 3%;
 }
 
-footer p {
-	display: inline-block;
-	margin-right: 3%;
+footer ul {
+	display: inline;
+	
+}
+
+footer ul li{
+	float: left;
 }
 
 footer a {
 	text-decoration: underline;
+	display: inline;
+}
+
+footer p {
+	padding-top: 30px;
+	padding-right: 5%;
+	margin-left: 5%;
+	font-size: 80%;
 }
 
 .icon {
-	padding-right: 1%;
 	float: right;
-}
-
-h1 {
-	clear: both;
-	margin-left: 1.9%;
-	margin-bottom: 1.2%;
+	margin-bottom: 10px;
+	padding-left: 1.3%;
+	margin-top: 15px;
 }
 
 form {
@@ -154,6 +171,7 @@ legend {
 #pet_info input {
 	margin-left: 1.5em;
 }	
+
 aside {
 	float: right;
 	margin: 0 3% 3% auto;
