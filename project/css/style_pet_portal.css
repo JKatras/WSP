@@ -145,12 +145,17 @@ footer p {
 
 #benefits ul {
 	margin: 15px auto;
-	padding-left: 4%;
+	padding-left: 6%;	
+	list-style: circle;
 }
 
 #benefits p {
 	margin: 0 auto 1em 4%;
 	font-weight: bold;
+}
+
+#benefits input.button {
+	margin: 0 auto .5em 4%;
 }
 
 #form_login {
@@ -161,16 +166,41 @@ footer p {
 	background-color: #C2F7CB;
 }
 
+#form_login input.button {
+	margin: .5em auto .35em;
+}
+
 #forgot_pass {
 	font-size: 80%;
 	text-decoration: underline;
 }
 
-#benefits ul {
-	margin-left: 1em;
-	list-style: circle;
+#email,
+#password {
+	width: 220px;
+}
+.button{
+	display: inline-block;
+	padding: 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	font-size: 1.125em; /* 18px */
+	border-radius: 8px;
+	background-color: #E2ECB4;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E2ECB4), to(#D2D96A));
+	background: -moz-linear-gradient(top,  #E2ECB4,  #D2D96A);
 }
 
+.button:hover{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	background: -webkit-gradient(linear, left top, left bottom, from(#D2D96A, #E2ECB4));
+	background: -moz-linear-gradient(top, #D2D96A, #E2ECB4);
+}
+
+.button:active{
+	color: black;
+}
 
 /*---------Media Queries-------------------*/
 
