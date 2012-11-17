@@ -186,6 +186,7 @@ aside {
 #appt_time p {
 	margin-bottom: 1em;
 }
+
 /*---------Media Queries-------------------*/
 
 /* Smartphones (portrait) ----------- */
@@ -195,6 +196,7 @@ and (max-width: 480px) {
 /* Styles */
 form {clear: both;}
 #logo {display: none;}
+nav {width: 100%; -moz-column-count: 2 50%; -webkit-column-count: 2 50%; background-color: white; margin: 0;}
 }
 
 
@@ -203,6 +205,8 @@ form {clear: both;}
 and (min-width: 768px) 
 and (max-width: 1024px) {
 /* Styles */
+nav {width: 100%; clear: both; background-color: white; margin: 0;}
+
 }
 
 /* Desktops and laptops ----------- */
