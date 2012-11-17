@@ -92,6 +92,7 @@ header {
 
 
 footer {
+	font-weight: bold;
 	max-width: 100%;
 	background: white;
 	clear: both;
