@@ -214,6 +214,10 @@ and (max-width: 480px) {
 form {clear: both;}
 #logo {display: none;}
 nav {width: 100%; -moz-column-count: 2 50%; -webkit-column-count: 2 50%; background-color: white; margin: 0;}
+#portal {clear: both; width: 100%; display: block; margin: 0 auto;}	
+footer p {
+	display: none;
+}
 }
 
 
@@ -223,7 +227,6 @@ and (min-width: 768px)
 and (max-width: 1024px) {
 /* Styles */
 nav {width: 100%; clear: both; background-color: white; margin: 0;}
-
 }
 
 /* Desktops and laptops ----------- */

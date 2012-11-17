@@ -197,6 +197,7 @@ and (max-width: 480px) {
 form {clear: both;}
 #logo {display: none;}
 nav {width: 100%; -moz-column-count: 2 50%; -webkit-column-count: 2 50%; background-color: white; margin: 0;}
+footer p {display: none;}
 }
 
 
