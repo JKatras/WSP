@@ -48,6 +48,10 @@ nav a:hover{
 	background-color: #C2F7CB;
 }
 
+nav.sub_menu{
+	visibility: hidden;
+}
+
 /*a:visited{
 	color: ;
 	border-color: #DDD;
