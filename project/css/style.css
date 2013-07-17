@@ -49,6 +49,9 @@ nav a:hover{
 }
 
 nav.sub_menu{
+	float: none; 
+	display: none;
+	width: 13em;
 	visibility: hidden;
 }
 
