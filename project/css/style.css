@@ -33,47 +33,42 @@ nav {
 	margin-top: 15px;
 }
 
-nav ul li {
+nav li {
 	float: left;
 }
 
-nav ul li a {
-	display: inline;
+nav ul li {
 	float: left;
+	position: relative;
+	display: block;
+}
+
+nav a {
+	display: block;
 	padding: 15px 1em 8px;
 	background-color: white;
 }
 
-nav a:hover{
+nav li ul{
+	position: absolute;
+	left: -999em;
+}
+
+nav li:hover ul,
+nav li:hover ul li{
+	width: 9em;
+}
+
+nav a:hover {
 	background-color: #C2F7CB;
 }
-/* -----new content for dropdown------- */
-nav ul > li:hover .sub_menu{
-	display: block;
-}
 
-.sub_menu{
-	background: none repeat scroll 0 0 #444444;
-	float: left;
-	box-shadow: 0 0 6px #777777;
+nav li:hover ul{
+	z-index: 10;
+	left: auto;
+	border: 1px solid #333;
 	color: white;
-	display: none;
-	list-style: none outside none;
-	margin: 0;
-	padding: 4px 0;
-	position: absolute; 
 }
-/* ------end new content-----------*/
-
-/*a:visited{
-	color: ;
-	border-color: #DDD;
-}
-
-a:active{
-	color: #C3102E;
-	border-color: #C3102E;
-}*/
 
 a {
 	color: black;
