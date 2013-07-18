@@ -47,12 +47,23 @@ nav ul li a {
 nav a:hover{
 	background-color: #C2F7CB;
 }
+/* -----new content for dropdown------- */
+nav ul > li:hover .sub_menu{
+	display: block;
+}
 
 .sub_menu{
-	float: none; 
+	background: none repeat scroll 0 0 #444444;
+	float: left;
+	box-shadow: 0 0 6px #777777;
+	color: white;
 	display: none;
-	visibility: hidden; 
+	list-style: none outside none;
+	margin: 0;
+	padding: 4px 0;
+	position: absolute; 
 }
+/* ------end new content-----------*/
 
 /*a:visited{
 	color: ;
