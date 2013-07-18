@@ -48,11 +48,10 @@ nav a:hover{
 	background-color: #C2F7CB;
 }
 
-nav.sub_menu{
+.sub_menu{
 	float: none; 
 	display: none;
-	width: 13em;
-	visibility: hidden;
+	visibility: hidden; 
 }
 
 /*a:visited{
